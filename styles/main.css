@@ -1,0 +1,67 @@
+body {
+  background-color: lightblue;
+  background-image: url
+    (
+      "https://media.istockphoto.com/vectors/undersea-vector-id520581878?k=6&m=520581878&s=612x612&w=0&h=Lc4RTQKR2zHMGKI7GZfgtcXJCkKNkj2Mu8Pd0FddgEE="
+    );
+}
+
+header {
+  display: flex;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_arts {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.fish_tank {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.page_title {
+  align-self: center;
+}
+
+.logo {
+  width: 16%;
+}
+
+.art_head {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+}
+
+.fish_card {
+  padding: 4px;
+  margin: 8px;
+}
+
+.fish_pic {
+  width: 100px;
+}
+
+.harvest_locations {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.location {
+  padding: 12px;
+}
+
+.tank_tips {
+  order: 5;
+  width: 20%;
+  align-self: flex-end;
+}
