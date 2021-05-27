@@ -1,11 +1,13 @@
-const database = {
+export const database = {
     fish: [
         {   
-            species: "fish",
+            image: "./images/bartfish.gif",
             name: "Bart",
-            "harvest location": "Springfield",
-            food: "crustaceans",
-            size: 3
+            species: "fish",
+            length: 3,
+            location: "Springfield",
+            food: "crustaceans"
         }
     ]
 }
+
