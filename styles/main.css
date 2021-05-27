@@ -19,12 +19,14 @@ main {
   display: flex;
   flex-direction: column;
   width: 80%;
+  border: solid 1px red;
 }
 
 .fish_tank {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  border: solid 1px green;
 }
 
 .page_title {
@@ -44,6 +46,7 @@ main {
 .fish_card {
   padding: 4px;
   margin: 8px;
+  border: solid 1px orange;
 }
 
 .fish_pic {
@@ -54,6 +57,7 @@ main {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+  border: solid 1px orange;
 }
 
 .location {
@@ -64,4 +68,5 @@ main {
   order: 5;
   width: 20%;
   align-self: flex-end;
+  border: solid 1px red;
 }
